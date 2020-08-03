@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar" class=" navbar navbar-expand-lg navbar-light bg-info w-100 justify-content-start">
+            <a class="navbar-brand" href="#"><img id="header-img" class=" d-inline" src="imagenes/trumpet.png"
+                    alt="Logo trompeta"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li id="nav-link" class=" active nav-link">
+                        <a class="nav-link" href="#seccion-caracteristicas">Caracteristicas<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class=" active nav-link">
+                        <a class="nav-link" href="#video">Cómo funciona</a>
+                    </li>
+                    <li class=" active nav-link">
+                        <a class="nav-link" href="#precios">Precios</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="section-form">
+        <div>
+            <h2>Obras maestras artesanales hechas en casa</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Ingrese su email" required />
+                <br>
+                <input id="submit" type="submit" value="Empezar" class="btn btn-warning" />
+        </div>
+        </form>
+    </div>
+
+    <div id="seccion-caracteristicas">
+        <div class="sec-car-sub">
+            <div class="logo-zon-car">
+                <img class="img-producto" src="imagenes/premium-logo.png" alt="premiun">
+            </div>
+            <div class="info-zon-car">
+                <h2>Materiales premium</h2>
+                <p>Nuestras trompetas utilizan el latón más brillante que se obtiene localmente. Esto aumentará la
+                    longevidad de su compra.</p>
+            </div>
+        </div>
+        <div class="sec-car-sub">
+            <div class="logo-zon-car">
+                <img class="img-producto" src="imagenes/truck.png" alt="Envio rapido">
+            </div>
+            <div class="info-zon-car">
+                <h2>Envío rápido</h2>
+                <p>Nos aseguramos de que reciba su trompeta tan pronto como hayamos terminado de hacerlo. También
+                    proporcionamos
+                    devoluciones gratuitas si no está satisfecho.</p>
+            </div>
+        </div>
+        <div class="sec-car-sub">
+            <div class="logo-zon-car">
+                <img class="img-producto" src="imagenes/Quality-logo.png" alt="premiun">
+            </div>
+            <div class="info-zon-car">
+                <h2>Seguro de calidad</h2>
+                <p>Por cada compra que realice, nos aseguraremos de que no haya daños o fallas y verificaremos y
+                    probaremos el tono de su
+                    instrumento.</p>
+            </div>
+        </div>
+    </div>
+    <div id="video">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0UxaeYoDtdA?start=15" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="precios">
+        <section class="product" id="Muslady">
+            <div class="level font-weight-bold">
+                Muslady Trompeta
+            </div>
+            <article class="font-weight-normal">
+                <h2>$600</h2>
+                <ol>
+                    <li>Tono excelente</li>
+                    <li>Latón de alta calidad</li>
+                    <li>Paño de limpieza y sintonizador</li>
+                    <li>Con un estuche acolchado.</li>
+                </ol>
+                <button class="btn btn-warning">Seleccionar</button>
+            </article>
+        </section>
+        <section class="product" id="lade">
+            <div class="level font-weight-bold">LADE Trompeta</div>
+            <article class="font-weight-normal">
+                <h2>$900</h2>
+                <ol>
+                    <li>Trompeta bemol.</li>
+                    <li>Salid sonido fantástico.</li>
+                    <li>Diseño duradero y exquisito.</li>
+                    <li>Cepillo de limpieza.</li>
+                </ol>
+                <button class="btn btn-warning">Seleccionar</button>
+            </article>
+        </section>
+        <section class="product" id="Roy-Benson">
+            <div class="level font-weight-bold">Roy Benson trompeta</div>
+            <article class="font-weight-normal">
+                <h2>$1200</h2>
+                <ol>
+                    <li>Campana en latón.</li>
+                    <li>Anillo sobre la 3era válvula.</li>
+                    <li>Tudel ML</li>
+                    <li>Acabado lacado</li>
+                </ol>
+                <button class="btn btn-warning">Seleccionar</button>
+            </article>
+        </section>
+    </div>
+    <footer id="footer">
+        <div>
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Terminos</a></li>
+                <li><a href="#">Contact0</a></li>
+            </ul>
+        </div>
+        <div>
+            <span>Copyright 2016, Original Trompet</span>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
